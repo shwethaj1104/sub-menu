@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className='nav' onMouseOver={handleSubmit}>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} className='nav-logo'></img>
+          {/* <img src={logo} className='nav-logo'></img> */}
           <button className='btn toggle-btn' onClick={openSidebar}>
             <FaBars />
           </button>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <button onMouseOver={displaySubmenu} className='link-btn'>company</button>
           </li>
         </ul>
-        <button onMouseOver={displaySubmenu} className='btn signin-btn'>Sign in</button>
+        <button  className='btn signin-btn'>Sign in</button>
       </div>
     </nav>
   )
