@@ -3,14 +3,14 @@ import { useGlobalContext } from './context'
 import phoneImg from './images/phone.svg'
 
 const Hero = () => {
-  const {closeSubmenu} = useGlobalContext()
+  const { closeSubmenu } = useGlobalContext()
 
   return (
     <section className='hero' onMouseOver={closeSubmenu}>
       <div className='hero-center'>
         <article className='hero-info'>
           <h1>Payment infrastructure for the internet</h1>
-          <p>Millions of companies of all sizes from startups to forture 500s use stripe's software amd APIs to accept payments,send payouts and manage their business online</p>
+          <p>Manage your payments completly online with 100% security</p>
           <button className='btn'>Start now</button>
         </article>
         <article className='hero-images'>
