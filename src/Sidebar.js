@@ -4,7 +4,7 @@ import { useGlobalContext } from './context'
 import sublinks from './data'
 
 const Sidebar = () => {
-  const {isSidebarOpen,closeSidebar} = useGlobalContext()
+  const { isSidebarOpen, closeSidebar } = useGlobalContext()
 
   return (
     <aside className={`${isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'}`}>
@@ -13,15 +13,15 @@ const Sidebar = () => {
           <FaTimes />
         </button>
         <div className='sidebar-links'>
-          {sublinks.map((item,index)=>{
-            const {links,page} = item;
+          {sublinks.map((item, index) => {
+            const { links, page } = item;
             return (
               <article key={index}>
-                <h4>{page}</h4>
+                <h4 className='sidebar-header'>{page}</h4>
                 <div className='sidebar-sublinks'>
-                  {links.map((link,index)=>{
-                    const {url,icon,label} = link
-                    return(
+                  {links.map((link, index) => {
+                    const { url, icon, label } = link
+                    return (
                       <a key={index} href={url}>
                         {icon}{label}
                       </a>
