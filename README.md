@@ -2,7 +2,7 @@
 
 Application built on React.js, and supports monitor, tab and mobile views.
 
-Checkout application at
+Checkout application at https://sub-menu.vercel.app/
 
 Landing page :
 
