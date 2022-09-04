@@ -14,4 +14,3 @@ Navigation bar view :
 Side Navigation bar on Mobile view :
 
 ![image](https://user-images.githubusercontent.com/107784718/184523472-e52ac77b-37ac-4b35-94d2-79c671a3e27b.png)
-
