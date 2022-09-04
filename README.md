@@ -1,8 +1,10 @@
 # Sub Menu
 
-Application built on React.js, and supports monitor, tab and mobile views.
+Application built on React.js.
 
 Checkout application at https://sub-menu.vercel.app/
+
+Application supports monitor, tab and mobile views.
 
 Landing page :
 
